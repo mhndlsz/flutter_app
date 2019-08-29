@@ -5,7 +5,7 @@ void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    var appBar2 = AppBar(
+    final AppBar appBar2 = AppBar(
           title: Text('Welcome to Fluteter!'),
         );
     return MaterialApp(
